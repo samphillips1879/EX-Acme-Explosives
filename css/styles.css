@@ -1,3 +1,13 @@
-
+#pageWrapper {
+  width: 85%;
+  margin: auto;
+  margin-top: 25px;
+  border: 2px solid black;
+  padding: 1%;
+  min-height: 700px; }
+  #pageWrapper h1 {
+    text-align: center; }
+  #pageWrapper div {
+    margin: 25px 0 0 50px; }
 
 /*# sourceMappingURL=styles.css.map */

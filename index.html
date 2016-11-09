@@ -5,11 +5,45 @@
 <html>
 <head>
 	<title>Acme Explosives</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<h1>Acme Explosives</h1>
+
+	<div id="pageWrapper">
+
+
+		<h1>Acme Explosives</h1>
+
+
+		<div id="userInputs">
+			<h4>What may we find for you?</h4>
+			<select id="catSelect">
+				<option value="-1">Select a Category</option>
+				<option id="blah" class="catOption" id="cat0Select" value="0">Fireworks</option>
+				<option class="catOption" id="cat1Select" value="1">Demolition</option>
+			</select>
+		</div>
+
+
+
+
+
+		<div id="prodHolder" class="container">
+			
+		</div>
+
+
+
+	</div>
+
+
+
+
 
 	<script type="text/javascript" src="dist/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/eventHandlers.js"></script>
+	<script type="text/javascript" src="javascripts/DOMHandler.js"></script>
 	<script type="text/javascript" src="javascripts/app.js"></script>
 </body>
 </html>
